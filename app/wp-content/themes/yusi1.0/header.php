@@ -22,6 +22,7 @@ window._deel = {name: '<?php bloginfo('name') ?>',url: '<?php echo get_bloginfo(
 wp_head(); 
 if( dopt('d_headcode_b') ) echo dopt('d_headcode'); ?>
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/js/html5.js"></script><![endif]-->
+    <script src="<?php bloginfo('template_url'); ?>/js/highlight.pack.js"></script>
 </head>
 <body <?php body_class(); ?>>
 
