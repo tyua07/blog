@@ -23,6 +23,8 @@ wp_head();
 if( dopt('d_headcode_b') ) echo dopt('d_headcode'); ?>
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/js/html5.js"></script><![endif]-->
     <script src="<?php bloginfo('template_url'); ?>/js/highlight.pack.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/docco.css"></script>
+
 </head>
 <body <?php body_class(); ?>>
 
