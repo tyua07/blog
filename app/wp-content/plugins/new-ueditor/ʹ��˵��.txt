@@ -1,0 +1,7 @@
+本压缩包内 UEditor 的版本是 utf8-php-1.3.6，WordPress 版本是 3.8.2
+
+把 edit-form-advanced.php 复制到 WordPress的目录 wp-admin\ 下并覆盖掉原文件
+
+把 ueditor.php 和 ueditor文件夹 复制到 WordPress的插件目录 wp-content\plugins\ 下
+
+清理浏览器缓存，登录WordPress后台启用插件
