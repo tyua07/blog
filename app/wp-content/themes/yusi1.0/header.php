@@ -24,7 +24,8 @@ if( dopt('d_headcode_b') ) echo dopt('d_headcode'); ?>
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/js/html5.js"></script><![endif]-->
     <script src="<?php bloginfo('template_url'); ?>/js/highlight.pack.js"></script>
     <script src="<?php bloginfo('template_url'); ?>/js/docco.css"></script>
-
+    <link rel="stylesheet" href="http://blog.womenshuo.com/wp-content/plugins/kindeditor-for-wordpress/themes/default/default.css?ver=4.2.2"/>
+    <link rel="stylesheet" href="http://blog.womenshuo.com/wp-content/plugins/kindeditor-for-wordpress/plugins/code/prettify.css"/>
 </head>
 <body <?php body_class(); ?>>
 
