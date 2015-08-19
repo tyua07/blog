@@ -40,6 +40,7 @@ $screen->add_help_tab( array(
 	'content' => $help,
 ) );
 
+    echo 11;die;
 // Help tabs
 
 $help  = '<p>' . __( 'The left-hand navigation menu provides links to all of the WordPress administration screens, with submenu items displayed on hover. You can minimize this menu to a narrow icon strip by clicking on the Collapse Menu arrow at the bottom.' ) . '</p>';
